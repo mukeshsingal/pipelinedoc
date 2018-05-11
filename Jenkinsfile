@@ -1,5 +1,5 @@
 node {
-   stage("Check provided parameters"){
+   stage("check parameters"){
        echo "checkout"
    }
    parallel(
