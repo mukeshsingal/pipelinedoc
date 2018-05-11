@@ -13,5 +13,7 @@ node {
        echo "This is branch b"
       }
     )
-    
+   stage("Running Tests"){
+       echo "checkout"
+   }
 }
