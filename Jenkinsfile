@@ -1,6 +1,6 @@
 node {
    stage("check parameters"){
-       echo "checkout"
+       echo this.class
    }
    parallel(
       Android: {
